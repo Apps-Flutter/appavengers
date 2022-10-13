@@ -1,5 +1,4 @@
 import 'package:appavengers/router/app_routes.dart';
-import 'package:appavengers/screens/avengers_screen.dart';
 import 'package:appavengers/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
