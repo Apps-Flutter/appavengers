@@ -19,18 +19,36 @@ class HomeScreen extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     color: Colors.white),
               ),
-              TextButton(
-                child: const Text(
-                  'Ver movies aquí',
-                  style: TextStyle(fontSize: 20, color: Colors.yellowAccent),
-                ),
-                onPressed: () => {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const MovieScreen()))
-                },
-              )
+              // TextButton(
+              //   child: const Text(
+              //     'Ver movies aquí',
+              //     style: TextStyle(fontSize: 20, color: Colors.yellowAccent),
+              //   ),
+              //   onPressed: () => {
+              //     Navigator.push(
+              //         context,
+              //         MaterialPageRoute(
+              //             builder: (context) => const MovieScreen()))
+              //   },
+              // ),
+              ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.amberAccent,
+                      shape: const StadiumBorder(),
+                      elevation: 3),
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const MovieScreen()));
+                  },
+                  child: const Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 8),
+                    child: Text(
+                      'Ver películas aquí',
+                      style: TextStyle(color: Colors.black),
+                    ),
+                  ))
             ])));
   }
 }
