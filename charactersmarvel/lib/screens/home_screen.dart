@@ -18,17 +18,23 @@ class HomeScreen extends StatelessWidget {
               width: 300,
               fit: BoxFit.contain,
             ),
-            TextButton(
-                child: const Text(
-                  'Pulsa aquí',
-                  style: TextStyle(fontSize: 20, color: Colors.yellowAccent),
-                ),
-                onPressed: () => {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const HeroMarvelScreen()))
-                    })
+            ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                    backgroundColor: const Color.fromARGB(255, 210, 3, 3),
+                    shape: const StadiumBorder(),
+                    elevation: 3),
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const HeroMarvelScreen()));
+                },
+                child: const Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 25, vertical: 10),
+                    child: Text(
+                      'Pulsa aquí para ingresar',
+                      style: TextStyle(fontSize: 16),
+                    )))
           ])),
     );
   }
