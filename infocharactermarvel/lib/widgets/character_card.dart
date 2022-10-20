@@ -34,10 +34,14 @@ class CharactetInfo extends StatelessWidget {
                 const SizedBox(
                   height: 10,
                 ),
-                Image(
-                  image: NetworkImage(phtoChar),
-                  height: 100,
+                CircleAvatar(
+                  maxRadius: 110,
+                  backgroundImage: NetworkImage(phtoChar),
                 )
+                // Image(
+                //   image: NetworkImage(phtoChar),
+                //   height: 100,
+                // )
               ],
             ),
             actions: [

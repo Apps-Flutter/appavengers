@@ -20,7 +20,7 @@ class CharactersScreen extends StatelessWidget {
               nameChar: 'Steve Rogers',
               descriptionChar: 'Si me necesitas, allí estaré.',
               phtoChar:
-                  'https://pbs.twimg.com/profile_images/722750943842861056/0xQzLEyL_400x400.jpg',
+                  'https://cdn.images.express.co.uk/img/dynamic/36/1200x712/1623817_1.jpg',
             ),
             CharactetInfo(
                 imageUrl:
@@ -30,7 +30,7 @@ class CharactersScreen extends StatelessWidget {
                 descriptionChar:
                     'No es suficiente estar en contra, tienes que estar a favor de algo mejor.',
                 phtoChar:
-                    'https://api.sololearn.com/Uploads/Avatars/3208627.jpg'),
+                    'https://static.wikia.nocookie.net/marvelcinematicuniverse/images/3/35/IronMan-EndgameProfile.jpg/revision/latest/top-crop/width/360/height/360?cb=20190423175213'),
             CharactetInfo(
               imageUrl:
                   'https://static.wikia.nocookie.net/future-fight/images/4/4c/Black_Panther_Uniform_II.png/revision/latest?cb=20190228154413',
@@ -38,7 +38,7 @@ class CharactersScreen extends StatelessWidget {
               nameChar: 'Chadwick Boseman',
               descriptionChar: 'Era mi deber luchar por lo que amo..',
               phtoChar:
-                  'https://static.wikia.nocookie.net/mua/images/f/fa/MUA3_Black_Panther.png/revision/latest?cb=20190622013215',
+                  'https://i.kinja-img.com/gawker-media/image/upload/q_75,w_1600,h_900,c_fill/0b6a12ddec48d95278105ca50eb49bcf.JPG',
             )
           ],
         ));
